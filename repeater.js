@@ -17,7 +17,6 @@ if (options.numbers) {
 }
 for (i = 0; i < alphabet.length; i++) {
     for (length = options.min; length <= options.max; length++) {
-        if(i+1 == alphabet.length)
         data.push(alphabet[i].repeat(length) + '\r\n');
     }
 
